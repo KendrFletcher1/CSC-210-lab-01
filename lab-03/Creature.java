@@ -1,0 +1,28 @@
+public class Creature {
+
+    private String name;
+    private String type;
+    private int power;
+
+    public Creature(String name, String type, int power) {
+        this.name = name;
+        this.type = type;
+        this.power = power;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public int getPower() {
+        return power;
+    }
+
+    public String toString() {
+        return name + "," + type + "," + power;
+    }
+}
